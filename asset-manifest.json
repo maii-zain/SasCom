@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/SasCom/static/css/main.7164a9a5.css",
-    "main.js": "/SasCom/static/js/main.5b2fc0ab.js",
+    "main.css": "/SasCom/static/css/main.9cc3dfda.css",
+    "main.js": "/SasCom/static/js/main.715f21e3.js",
     "static/js/453.efdd0ac1.chunk.js": "/SasCom/static/js/453.efdd0ac1.chunk.js",
+    "static/media/LoopGlow.gif": "/SasCom/static/media/LoopGlow.e3c8fbe890eb38f2a602.gif",
+    "static/media/ab3.jpg": "/SasCom/static/media/ab3.3ed0147670b6e5ca5b81.jpg",
+    "static/media/ab1.jpg": "/SasCom/static/media/ab1.f9184c049b28619a6c04.jpg",
+    "static/media/ab2.webp": "/SasCom/static/media/ab2.64da420395540d00d437.webp",
     "static/media/logo.svg": "/SasCom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SasCom/index.html",
-    "main.7164a9a5.css.map": "/SasCom/static/css/main.7164a9a5.css.map",
-    "main.5b2fc0ab.js.map": "/SasCom/static/js/main.5b2fc0ab.js.map",
+    "main.9cc3dfda.css.map": "/SasCom/static/css/main.9cc3dfda.css.map",
+    "main.715f21e3.js.map": "/SasCom/static/js/main.715f21e3.js.map",
     "453.efdd0ac1.chunk.js.map": "/SasCom/static/js/453.efdd0ac1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7164a9a5.css",
-    "static/js/main.5b2fc0ab.js"
+    "static/css/main.9cc3dfda.css",
+    "static/js/main.715f21e3.js"
   ]
 }
