@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import { motion } from "framer-motion";
+
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Service';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import ClientCarousel from './components/Partners';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.6 }}
+>
+  <Navbar />
+  <Hero />
+  <About />
+  {/* <Services /> */}
+  <Projects />
+  <Testimonials />
+  <Contact />
+  {/* <ClientCarousel></ClientCarousel> */}
+  <Footer />
+</motion.div>
+
+ 
     </div>
   );
 }
